@@ -40,6 +40,12 @@ Partial Class MenuPrincipal
         Me.iconoactual = New FontAwesome.Sharp.IconPictureBox()
         Me.Escritorio = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.panelMenu.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -303,6 +309,12 @@ Partial Class MenuPrincipal
         '
         'Escritorio
         '
+        Me.Escritorio.Controls.Add(Me.Label6)
+        Me.Escritorio.Controls.Add(Me.Label5)
+        Me.Escritorio.Controls.Add(Me.Label4)
+        Me.Escritorio.Controls.Add(Me.Label3)
+        Me.Escritorio.Controls.Add(Me.Label2)
+        Me.Escritorio.Controls.Add(Me.Label1)
         Me.Escritorio.Controls.Add(Me.PictureBox2)
         Me.Escritorio.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Escritorio.Location = New System.Drawing.Point(220, 49)
@@ -323,6 +335,66 @@ Partial Class MenuPrincipal
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(330, 464)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(235, 20)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Yerson Bocanegra Guerrero"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(330, 361)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(209, 20)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Derbis Huaman Huancas"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(330, 383)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(203, 20)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Alvaro Cabanillas Torres"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(330, 404)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(170, 20)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "Carlos Cortez Rubio"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(330, 424)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(222, 20)
+        Me.Label5.TabIndex = 5
+        Me.Label5.Text = "Carlos Fernandez Saldaña"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(330, 444)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(217, 20)
+        Me.Label6.TabIndex = 6
+        Me.Label6.Text = "Luiggi Guerrero Sernaque"
+        '
         'MenuPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -342,6 +414,7 @@ Partial Class MenuPrincipal
         Me.Panel2.PerformLayout()
         CType(Me.iconoactual, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Escritorio.ResumeLayout(False)
+        Me.Escritorio.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -364,4 +437,10 @@ Partial Class MenuPrincipal
     Friend WithEvents btnrestaurar As Button
     Friend WithEvents btnminimizar As Button
     Friend WithEvents btncerrar As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
 End Class
